@@ -1,0 +1,24 @@
+Privacy Policy
+Effective Date: 2025.09.10
+App Name: Orange Camera AI
+Overview
+Orange Camera AI (“the App”) is a camera application that allows users to take photos and process them using AI vision technology. We respect your privacy and are committed to protecting it. This Privacy Policy explains what information is (and is not) collected, how your photos are handled, and your rights.
+Information We Do Not Collect
+We do not collect, store, or sell your personal information.
+We do not require account registration, email addresses, or contact details.
+We do not track your location, browsing history, or personal identifiers.
+How Photos Are Processed
+When you use AI features, the App sends the photo you capture to a third-party AI server for processing.
+These photos are transmitted securely and are used only to provide you with AI-based results.
+The App itself does not store your photos after processing.
+We do not associate photos with your identity.
+Third-Party Services
+The AI server is provided by [insert provider if known; e.g., “a free third-party AI API”].
+Their handling of data may follow their own privacy policy. We encourage you to review their terms and policies.
+Children’s Privacy
+This App is not directed toward children under 13. We do not knowingly collect personal information from children.
+Changes to This Policy
+We may update this Privacy Policy from time to time. Any updates will be posted on this page with a revised effective date.
+Contact
+If you have questions about this Privacy Policy, you can reach us at:
+devilent2@outlook.com

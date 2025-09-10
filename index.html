@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orange Camera — How to Use</title>
+<style>
+  :root {
+    --bg: #0f1420;
+    --panel: #151B2B;
+    --text: #E8EEF9;
+    --muted: #A9B4CE;
+    --accent: #FFB84D;
+    --accent-2: #6FE8C2;
+    --accent-3: #FF6A5B;
+    --yellow: #FFD84D;
+  }
+  html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { padding: 8px 0 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: 0.2px; }
+  .subtitle { color: var(--muted); margin: 0 0 20px; }
+  nav.toc { background: var(--panel); border-radius: 14px; padding: 14px 16px; margin: 16px 0 28px; }
+  nav.toc a { margin-right: 16px; white-space: nowrap; }
+  section { background: var(--panel); border-radius: 14px; padding: 18px 18px; margin: 14px 0; }
+  h2 { font-size: 20px; margin: 0 0 12px; }
+  h3 { font-size: 16px; margin: 18px 0 10px; color: var(--accent-2); }
+  p { line-height: 1.6; color: var(--text); margin: 10px 0; }
+  ul, ol { margin: 8px 0 12px 18px; color: var(--text); line-height: 1.6; }
+  .tip { background: rgba(255, 184, 77, 0.12); border: 1px solid rgba(255, 184, 77, 0.25); color: var(--text); padding: 10px 12px; border-radius: 10px; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } nav.toc { display: grid; gap: 8px; } }
+  code.kbd { background: #0b101c; border: 1px solid #242a3d; padding: 2px 6px; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 90%; }
+  .muted { color: var(--muted); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; background: rgba(111,232,194,0.15); border: 1px solid rgba(111,232,194,0.35); color: var(--accent-2); vertical-align: middle; }
+  .callout { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; background: #10172a; border: 1px solid #223052; border-radius: 12px; padding: 10px 12px; }
+  .callout .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--accent); margin-top: 6px; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Orange Camera</h1>
+      <p class="subtitle">A clean, minimal camera that captures Photos, Video, and Audio — with Smart (AI) vision to describe the scene.</p>
+      <nav class="toc">
+        <a href="#quick-start">Quick Start</a>
+        <a href="#photos">Take Photos</a>
+        <a href="#video">Record Video</a>
+        <a href="#audio">Record Audio-only</a>
+        <a href="#ai">Use AI Vision</a>
+        <a href="#gallery">Gallery & Sharing</a>
+        <a href="#controls">Zoom, Focus, Mic</a>
+        <a href="#settings">Settings</a>
+        <a href="#troubleshoot">Troubleshooting</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </header>
+
+    <section id="quick-start">
+      <h2>Quick Start</h2>
+      <ol>
+        <li>Grant <strong>Camera</strong>, <strong>Microphone</strong>, and <strong>Photos</strong> access on first launch.</li>
+        <li>The live viewfinder opens immediately. Bottom toolbar shows:
+          <ul>
+            <li><strong>Smart</strong> (sparkles): AI describe.</li>
+            <li><strong>Photo</strong> (camera): Take a photo.</li>
+            <li><strong>Video</strong> (video/stop): Start/stop video.</li>
+            <li><strong>Audio</strong> (waveform/mic): Record audio-only.</li>
+          </ul>
+        </li>
+        <li>Swipe up the bottom sheet to open the <strong>Gallery</strong>.</li>
+      </ol>
+      <div class="tip">Haptics confirm starts/stops. If you feel a tap, the action took.</div>
+    </section>
+
+    <section id="photos">
+      <h2>Take Photos</h2>
+      <div class="grid">
+        <div>
+          <h3>Method 1 — Tap Viewfinder</h3>
+          <ol>
+            <li><strong>Tap once</strong> on the live viewfinder.</li>
+            <li>The photo is captured with auto flash when available.</li>
+            <li>It’s saved to your Photos library. A mini gallery can appear for quick review.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Method 2 — Toolbar Button</h3>
+          <ol>
+            <li>Tap the <strong>Camera</strong> button in the bottom toolbar.</li>
+            <li>Haptic feedback confirms the shot.</li>
+            <li>Open the gallery to view, favorite, or share.</li>
+          </ol>
+        </div>
+      </div>
+      <p class="muted">Notes: Photos use your current lens and exposure. Flash is set to Auto when supported.</p>
+    </section>
+
+    <section id="video">
+      <h2>Record Video</h2>
+      <div class="grid">
+        <div>
+          <h3>Method 1 — Press & Hold</h3>
+          <ol>
+            <li><strong>Press and hold</strong> on the viewfinder to start recording after a short start cue.</li>
+            <li><strong>Release</strong> to stop.</li>
+            <li>Video is saved to your Photos library automatically.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Method 2 — Toggle Button</h3>
+          <ol>
+            <li>Tap the <strong>Video</strong> button (shows “video” when idle, “stop” while recording).</li>
+            <li>Tap again to stop.</li>
+            <li>A compact gallery preview may pop up with the newest video.</li>
+          </ol>
+        </div>
+      </div>
+      <p class="muted">Tip: Bluetooth mics are supported. See <a href="#mic">Mic selection</a>.</p>
+    </section>
+
+    <section id="audio">
+      <h2>Record Audio-only</h2>
+      <ol>
+        <li>Tap the <strong>Audio</strong> button to start an audio note after the start cue.</li>
+        <li>Tap again to stop. The app saves an <code class="kbd">.m4a</code> file.</li>
+        <li>A system share sheet appears so you can save to Files or share.</li>
+      </ol>
+      <p class="muted">Audio uses your chosen input (built-in or Bluetooth). Stereo AAC, 44.1 kHz.</p>
+    </section>
+
+    <section id="ai">
+      <h2>Use AI Vision <span class="badge">Smart mode</span></h2>
+      <div class="callout">
+        <div class="dot"></div>
+        <div>AI Vision captures a quick photo and streams a description/caption of what it sees.</div>
+      </div>
+      <h3>Describe the Scene</h3>
+      <ol>
+        <li>Tap the <strong>Sparkles</strong> button.</li>
+        <li>The app snaps a frame and sends it to AI.</li>
+        <li>Text streams in as it’s generated. Copy or dismiss when done.</li>
+      </ol>
+      <h3>Configure AI</h3>
+      <ol>
+        <li>Open <strong>AI Settings</strong> in the app.</li>
+        <li>Set:
+          <ul>
+            <li><strong>API URL</strong>: your AI service endpoint</li>
+            <li><strong>API Key</strong>: your secret token</li>
+            <li><strong>Model</strong>: e.g., a vision-capable model</li>
+            <li><strong>System Prompt</strong>: style or constraints you prefer</li>
+          </ul>
+        </li>
+        <li>Return and tap <strong>Sparkles</strong> again to test.</li>
+      </ol>
+      <p class="muted">If streaming stalls, check network and API credentials.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery & Sharing</h2>
+      <ol>
+        <li>Swipe up the bottom sheet or tap the gallery prompt after a save.</li>
+        <li>Browse recent <strong>Photos</strong> and <strong>Videos</strong>.</li>
+        <li>Tap an item to view. Use the share button to export or send.</li>
+      </ol>
+      <p class="muted">Videos and photos save to the system Photos library. Audio notes offer a share/export sheet on save.</p>
+    </section>
+
+    <section id="controls">
+      <h2>Controls & Pro Tips</h2>
+
+      <h3 id="zoom">Zoom</h3>
+      <ul>
+        <li><strong>Pinch</strong> on the viewfinder to zoom. A subtle HUD shows the current level.</li>
+        <li>Pause pinching to hide the HUD automatically.</li>
+      </ul>
+
+      <h3 id="focus">Focus & Exposure</h3>
+      <ul>
+        <li><strong>Tap</strong> to meter and focus on a subject.</li>
+        <li>Move the camera slightly to re-meter if needed.</li>
+      </ul>
+
+      <h3 id="mic">Mic Selection</h3>
+      <ul>
+        <li>Open the <strong>Mic</strong> menu (when visible) to select:
+          <ul>
+            <li><strong>System Default</strong> (automatic)</li>
+            <li>Available <strong>Bluetooth</strong> or external mics</li>
+          </ul>
+        </li>
+        <li>The app remembers your choice and reapplies it after session changes.</li>
+      </ul>
+
+      <h3>Haptics & Sounds</h3>
+      <ul>
+        <li>Start and stop actions provide a gentle haptic and short cue.</li>
+        <li>Video and audio start after the cue to avoid capturing the sound.</li>
+      </ul>
+    </section>
+
+    <section id="settings">
+      <h2>Settings</h2>
+      <ul>
+        <li><strong>AI Settings</strong>: API URL, Key, Model, System Prompt.</li>
+        <li><strong>Camera</strong>: Resolution and stabilization follow device capabilities.</li>
+        <li><strong>Permissions</strong>: Ensure Camera, Microphone, and Photos are granted in iOS Settings.</li>
+      </ul>
+    </section>
+
+    <section id="troubleshoot">
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li><strong>No camera preview</strong>: Check camera permission in iOS Settings.</li>
+        <li><strong>No audio in video</strong>: Verify microphone permission and selected input.</li>
+        <li><strong>AI not responding</strong>: Confirm network, API URL/Key, and model; try again.</li>
+        <li><strong>Bluetooth mic missing</strong>: Toggle Bluetooth, reconnect the device, then reopen mic menu.</li>
+        <li><strong>Photos not saving</strong>: Allow Photos access and ensure free storage space.</li>
+      </ul>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy</h2>
+      <ul>
+        <li><strong>On-device capture</strong>: Photos and videos are stored locally in your Photos library.</li>
+        <li><strong>AI requests</strong>: When using Smart mode, a captured frame is sent to your configured AI endpoint solely for generating a description.</li>
+        <li><strong>Audio notes</strong>: Saved locally; you choose where to share/export.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Built with care. Enjoy creating with Orange Camera.
+    </footer>
+  </div>
+</body>
+</html>
